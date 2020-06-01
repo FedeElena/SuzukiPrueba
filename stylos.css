@@ -1,0 +1,240 @@
+.contenedor{
+    padding: 0;
+    margin:0;
+    width:100vw; 
+}
+
+body{
+    margin:0;
+}
+
+.navegacion{
+    height: 51px;
+    position: fixed;
+}
+
+.navegacion ul {
+    display:flex;
+    flex-direction: row;
+    padding:.5rem ;
+    list-style:none;
+    justify-content:flex-start;
+    width: 100vw;
+    background-color:#124499;
+    align-items: center;
+    margin: 0;
+
+    
+    
+    
+    
+    
+}
+
+.navegacion ul li {
+    margin-right:12px ;
+    padding: 8px;
+    box-sizing: border-box;
+
+}
+
+.navegacion ul li a{
+    color:#FFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+.contenedor-dos{
+    width:100vw;
+    height:100%;
+    background-color:#343638;
+
+
+}
+
+.logo{
+    background-image:url(./img/hayabusa.png);
+    display: flex;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+    background-position: right center;
+    align-items: center;
+}
+     
+.texto {
+    margin: 24px;
+    padding: 0px;
+}
+
+.texto h1 {
+    color:#f3f3f3;
+    font-family: sans-serif;
+    font-size: 27px;
+
+}
+    
+ .texto p{
+     width: 258px;
+     color:#f3f3f3;
+     font-family: sans-serif;
+     font-size: 18px;
+     
+ }   
+
+ .texto a {
+    text-decoration: none;
+    color: #925659;
+    font-size: 32px;
+    border: solid 3px;
+    padding: 4px 8px;
+}
+    
+
+.texto a:hover{
+    color: #FFFF;
+}
+
+.contenido-principal h2 {
+    text-align: center;
+}
+
+.contenido-principal {
+    margin:0;
+    padding: 0;
+}
+    
+.contenido-principal .article-moto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+ .moto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px;
+    width: calc(33% - 27px);
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+    align-items: center;
+    background-color:#fcfbfb ;
+}
+    
+
+ 
+.moto img {
+    width:200px;
+    height: 160px;
+}
+
+
+ 
+.banner{
+    background-color: #0b0b0d;  
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+ .fondo-dos {
+    background-image: url(./img/hayabusa.png);
+    background-repeat: no-repeat;
+    width: 100%; /*Diferencia entre % y vw*/
+    height: 100vh;
+    background-position: right center;
+    align-items: center;
+    display: flex;
+    
+ }
+
+.katana{
+    padding: 0;
+    margin: 24px;
+    
+}
+
+
+.katana h1{
+    color:#f3f3f3 ;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 34px;
+
+}
+
+.katana p {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 312px;
+    padding: 2px;
+}
+
+.katana a{
+    padding: 6px 8px;
+    text-decoration: none;
+    color: #925659;
+    font-size: 28px;
+    border: solid 2px;
+    font-family: sans-serif;
+ 
+   
+}
+
+.katana a:hover{
+    color:#f3f3f3;
+
+}
+
+
+.final {
+   margin: 0;
+   padding: 0;
+   
+   
+   
+
+}
+
+ .foto-trio{
+    border: solid 2px;
+    width: calc(33% - 27px);
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfbfb;
+   
+
+}
+
+
+.final .foto-trio img{
+  width: 200px;
+  height: 160px;
+  
+
+}
+
+.final h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.motos-dos{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+
+    
+
+}
+
+.original {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
